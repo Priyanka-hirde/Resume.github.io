@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+#about {
+  text-align: center;
+}
+
+#about img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#about p {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+#skills ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#skills li {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+#projects {
+  background: #fff;
+  text-align: center;
+}
+
+.project-card {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  padding: 15px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  margin-top: 10px;
+}
+
+#contact {
+  text-align: center;
+  background: #eaeaea;
+  padding: 40px 0;
+}
+
+#contact a {
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 15px 0;
+  font-size: 0.9rem;
+}
